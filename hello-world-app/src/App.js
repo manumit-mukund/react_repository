@@ -1,7 +1,7 @@
 import React from 'react';
 //import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { GreetFunction, GreetConst, WelcomeClass, CreateElementUsingJSX, CreateElementByReturn, GreetProps, Inline, Home, Layout } from './components/pages';
+import { GreetFunction, GreetConst, WelcomeClass, CreateElementUsingJSX, CreateElementByReturn, GreetProps, WelcomeClassProps, Inline, Home, Layout } from './components/pages';
 
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
           <Route path="CreateElementByReturn" element={<CreateElementByReturn />} />
           <Route path="GreetProps" element={<GreetProps name="Ram" heroName='God Ram'><p>This is children props.</p> </GreetProps>} />
           <Route path="GreetProps1" element={<GreetProps name="Ram1" heroName='God Ram1'><button>Acrion</button> </GreetProps>} />
+          <Route path="WelcomeClassProps" element={<WelcomeClassProps name="Ram" heroName='God Ram'><button>Acrion</button> </WelcomeClassProps>} />
           <Route path="Inline" element={<Inline />} />
         </Route>
       </Routes>

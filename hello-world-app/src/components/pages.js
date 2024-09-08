@@ -8,6 +8,7 @@ import WelcomeClass from './WelcomeClass';
 import CreateElementUsingJSX from './CreateElementUsingJSX';
 import CreateElementByReturn from './CreateElementByReturn';
 import GreetProps from './GreetProps';
+import WelcomeClassProps from './WelcomeClassProps';
 
 export {
 
@@ -17,6 +18,7 @@ export {
     CreateElementUsingJSX,
     CreateElementByReturn,
     GreetProps,
+    WelcomeClassProps,
     Inline,
     Stylesheet,
     Home,
