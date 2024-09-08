@@ -28,6 +28,10 @@ const Layout = () => {
             <Link to="/GreetProps">GreetProps</Link>
           </li>
           <li>
+            <Link to="/GreetProps1">GreetProps1</Link>
+          </li>
+
+          <li>
             <Link to="/Inline">Inline</Link>
           </li>
         </ul>

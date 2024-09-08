@@ -18,6 +18,7 @@ function App() {
           <Route path="CreateElementUsingJSX" element={<CreateElementUsingJSX />} />
           <Route path="CreateElementByReturn" element={<CreateElementByReturn />} />
           <Route path="GreetProps" element={<GreetProps name="Ram" heroName='God Ram'><p>This is children props.</p> </GreetProps>} />
+          <Route path="GreetProps1" element={<GreetProps name="Ram1" heroName='God Ram1'><button>Acrion</button> </GreetProps>} />
           <Route path="Inline" element={<Inline />} />
         </Route>
       </Routes>
