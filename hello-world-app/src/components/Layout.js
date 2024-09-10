@@ -29,11 +29,10 @@ const Layout = () => {
           </li>
           <li>
             <Link to="/GreetProps1">GreetProps1</Link>
-          </li>
+          </li>         
           <li>
             <Link to="/WelcomeClassProps">WelcomeClassProps</Link>
           </li>
-
           <li>
             <Link to="/Inline">Inline</Link>
           </li>
