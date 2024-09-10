@@ -1,7 +1,7 @@
 import React from 'react';
 //import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { GreetFunction, GreetConst, WelcomeClass, CreateElementUsingJSX, CreateElementByReturn, GreetProps, WelcomeClassProps, MessageClass, Inline, Home, Layout } from './components/pages';
+import { GreetFunction, GreetConst, WelcomeClass, CreateElementUsingJSX, CreateElementByReturn, GreetProps, WelcomeClassProps, MessageClass, CounterClass, CounterClassPropsIncrementFive, CounterClassPrevState, Inline, Home, Layout } from './components/pages';
 
 
 function App() {
@@ -21,6 +21,9 @@ function App() {
           <Route path="GreetProps1" element={<GreetProps name="Ram1" heroName='God Ram1'><button>Action</button> </GreetProps>} />
           <Route path="WelcomeClassProps" element={<WelcomeClassProps name="Ram" heroName='God Ram'><button>Acrion</button> </WelcomeClassProps>} />
           <Route path="MessageClass" element={<MessageClass />} />
+          <Route path="CounterClass" element={<CounterClass />} />
+          <Route path="CounterClassPropsIncrementFive" element={<CounterClassPropsIncrementFive />} />
+          <Route path="CounterClassPrevState" element={<CounterClassPrevState />} />
           <Route path="Inline" element={<Inline />} />
         </Route>
       </Routes>

@@ -37,6 +37,15 @@ const Layout = () => {
             <Link to="/MessageClass">MessageClass</Link>
           </li>
           <li>
+            <Link to="/CounterClass">CounterClass</Link>
+          </li>
+          <li>
+            <Link to="/CounterClassPropsIncrementFive">CounterClassPropsIncrementFive</Link>
+          </li>
+          <li>
+            <Link to="/CounterClassPrevState">CounterClassPrevState</Link>
+          </li>
+          <li>
             <Link to="/Inline">Inline</Link>
           </li>
         </ul>

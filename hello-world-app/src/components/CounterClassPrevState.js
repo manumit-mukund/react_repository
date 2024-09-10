@@ -5,7 +5,9 @@ class CounterClassPrevState extends Component {
     constructor(props) {
 
         super(props)
+
         this.state = {
+
             count: 0
         }
     }
@@ -17,7 +19,7 @@ class CounterClassPrevState extends Component {
             count: prevState.count + 1
         }))
 
-        console.log(this.state.count)
+        console.log('this.state.count = ', this.state.count)
 
     }
 
