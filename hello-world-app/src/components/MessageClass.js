@@ -5,8 +5,11 @@ class MessageClass extends Component {
     constructor() {
 
         super()
+
         this.state = {
+
             message: 'Welcome, message constructor'
+
         }
     }
 
@@ -15,6 +18,7 @@ class MessageClass extends Component {
         this.setState({
 
             message: 'Thanks for visitng the page!'
+            
         })
     }
 

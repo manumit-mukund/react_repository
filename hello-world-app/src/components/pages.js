@@ -9,6 +9,7 @@ import CreateElementUsingJSX from './CreateElementUsingJSX';
 import CreateElementByReturn from './CreateElementByReturn';
 import GreetProps from './GreetProps';
 import WelcomeClassProps from './WelcomeClassProps';
+import MessageClass from './MessageClass';
 
 export {
 
@@ -19,6 +20,7 @@ export {
     CreateElementByReturn,
     GreetProps,
     WelcomeClassProps,
+    MessageClass,
     Inline,
     Stylesheet,
     Home,
