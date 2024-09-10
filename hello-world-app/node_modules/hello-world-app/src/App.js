@@ -1,7 +1,10 @@
 import React from 'react';
 //import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { GreetFunction, GreetConst, WelcomeClass, CreateElementUsingJSX, CreateElementByReturn, GreetProps, WelcomeClassProps, MessageClass, CounterClass, CounterClassPropsIncrementFive, CounterClassPrevState, Inline, Home, Layout } from './components/pages';
+import { GreetFunction, GreetConst, WelcomeClass, CreateElementUsingJSX, 
+  CreateElementByReturn, GreetProps, GreetDestructureProps, GreetConstDestructureProps, WelcomeClassProps, MessageClass, 
+  CounterClass, CounterClassPropsIncrementFive, CounterClassPrevState, 
+  Inline, Home, Layout } from './components/pages';
 
 
 function App() {
@@ -19,6 +22,8 @@ function App() {
           <Route path="CreateElementByReturn" element={<CreateElementByReturn />} />
           <Route path="GreetProps" element={<GreetProps name="Ram" heroName='God Ram'><p>This is children props.</p> </GreetProps>} />
           <Route path="GreetProps1" element={<GreetProps name="Ram1" heroName='God Ram1'><button>Action</button> </GreetProps>} />
+          <Route path="GreetDestructureProps" element={<GreetDestructureProps name="Ram2" heroName='God Ram2'></GreetDestructureProps>} />
+          <Route path="GreetConstDestructureProps" element={<GreetConstDestructureProps name="Ram3" heroName='God Ram3'></GreetConstDestructureProps>} />
           <Route path="WelcomeClassProps" element={<WelcomeClassProps name="Ram" heroName='God Ram'><button>Acrion</button> </WelcomeClassProps>} />
           <Route path="MessageClass" element={<MessageClass />} />
           <Route path="CounterClass" element={<CounterClass />} />

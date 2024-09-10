@@ -8,6 +8,8 @@ import WelcomeClass from './WelcomeClass';
 import CreateElementUsingJSX from './CreateElementUsingJSX';
 import CreateElementByReturn from './CreateElementByReturn';
 import GreetProps from './GreetProps';
+import GreetDestructureProps from './GreetDestructureProps';
+import GreetConstDestructureProps from './GreetConstDestructureProps';
 import WelcomeClassProps from './WelcomeClassProps';
 import MessageClass from './MessageClass';
 import CounterClass from './CounterClass';
@@ -22,6 +24,8 @@ export {
     CreateElementUsingJSX,
     CreateElementByReturn,
     GreetProps,
+    GreetDestructureProps,
+    GreetConstDestructureProps,
     WelcomeClassProps,
     MessageClass,
     CounterClass,

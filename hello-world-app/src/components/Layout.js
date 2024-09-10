@@ -31,6 +31,12 @@ const Layout = () => {
             <Link to="/GreetProps1">GreetProps1</Link>
           </li>
           <li>
+            <Link to="/GreetDestructureProps">GreetDestructureProps</Link>
+          </li>
+          <li>
+            <Link to="/GreetConstDestructureProps">GreetConstDestructureProps</Link>
+          </li>
+          <li>
             <Link to="/WelcomeClassProps">WelcomeClassProps</Link>
           </li>
           <li>
