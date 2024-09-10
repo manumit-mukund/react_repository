@@ -15,6 +15,8 @@ import MessageClass from './MessageClass';
 import CounterClass from './CounterClass';
 import CounterClassPropsIncrementFive from './CounterClassPropsIncrementFive';
 import CounterClassPrevState from './CounterClassPrevState';
+import FunctionClick from './FunctionClick';
+import ClassClick from './ClassClick';
 
 export {
 
@@ -31,6 +33,8 @@ export {
     CounterClass,
     CounterClassPropsIncrementFive,
     CounterClassPrevState,
+    FunctionClick,
+    ClassClick,
     Inline,
     Stylesheet,
     Home,

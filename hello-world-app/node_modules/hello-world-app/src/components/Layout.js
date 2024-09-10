@@ -52,6 +52,12 @@ const Layout = () => {
             <Link to="/CounterClassPrevState">CounterClassPrevState</Link>
           </li>
           <li>
+            <Link to="/FunctionClick">FunctionClick</Link>
+          </li>
+          <li>
+            <Link to="/ClassClick">ClassClick</Link>
+          </li>
+          <li>
             <Link to="/Inline">Inline</Link>
           </li>
         </ul>
