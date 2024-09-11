@@ -3,7 +3,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { GreetFunction, GreetConst, WelcomeClass, CreateElementUsingJSX, 
   CreateElementByReturn, GreetProps, GreetDestructureProps, GreetConstDestructureProps, WelcomeClassProps, MessageClass, 
-  CounterClass, CounterClassPropsIncrementFive, CounterClassPrevState, FunctionClick, ClassClick,
+  CounterClass, CounterClassPropsIncrementFive, CounterClassPrevState, FunctionClick, ClassClick, EventBindClass,
   Inline, Home, Layout } from './components/pages';
 
 
@@ -31,6 +31,7 @@ function App() {
           <Route path="CounterClassPrevState" element={<CounterClassPrevState />} />
           <Route path="FunctionClick" element={<FunctionClick />} />
           <Route path="ClassClick" element={<ClassClick />} />
+          <Route path="EventBindClass" element={<EventBindClass />} />
           <Route path="Inline" element={<Inline />} />
         </Route>
       </Routes>

@@ -17,6 +17,7 @@ import CounterClassPropsIncrementFive from './CounterClassPropsIncrementFive';
 import CounterClassPrevState from './CounterClassPrevState';
 import FunctionClick from './FunctionClick';
 import ClassClick from './ClassClick';
+import EventBindClass from './EventBindClass';
 
 export {
 
@@ -35,6 +36,7 @@ export {
     CounterClassPrevState,
     FunctionClick,
     ClassClick,
+    EventBindClass,
     Inline,
     Stylesheet,
     Home,
