@@ -18,6 +18,7 @@ import CounterClassPrevState from './CounterClassPrevState';
 import FunctionClick from './FunctionClick';
 import ClassClick from './ClassClick';
 import EventBindClass from './EventBindClass';
+import EventBindClassArrowFunction from './EventBindClassArrowFunction';
 
 export {
 
@@ -37,6 +38,7 @@ export {
     FunctionClick,
     ClassClick,
     EventBindClass,
+    EventBindClassArrowFunction,
     Inline,
     Stylesheet,
     Home,

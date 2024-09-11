@@ -61,6 +61,9 @@ const Layout = () => {
             <Link to="/EventBindClass">EventBindClass</Link>
           </li>
           <li>
+            <Link to="/EventBindClassArrowFunction">EventBindClassArrowFunction</Link>
+          </li>
+          <li>
             <Link to="/Inline">Inline</Link>
           </li>
         </ul>
