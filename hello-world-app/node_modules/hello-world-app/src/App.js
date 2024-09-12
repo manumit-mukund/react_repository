@@ -4,7 +4,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { GreetFunction, GreetConst, WelcomeClass, CreateElementUsingJSX, 
   CreateElementByReturn, GreetProps, GreetDestructureProps, GreetConstDestructureProps, WelcomeClassProps, MessageClass, 
   CounterClass, CounterClassPropsIncrementFive, CounterClassPrevState, FunctionClick, ClassClick, 
-  EventBindClass, EventBindClassArrowFunction, ParentComponent, UserGreetingIfElse, UserGreetingIfElseSecondMethod,
+  EventBindClass, EventBindClassArrowFunction, ParentComponent, UserGreetingIfElse, 
+  UserGreetingIfElseSecondMethod, UserGreetingIfElseTernaryMethod,
   Inline, Home, Layout } from './components/pages';
 
 
@@ -37,6 +38,7 @@ function App() {
           <Route path="ParentComponent" element={<ParentComponent />} />
           <Route path="UserGreetingIfElse" element={<UserGreetingIfElse />} />
           <Route path="UserGreetingIfElseSecondMethod" element={<UserGreetingIfElseSecondMethod />} />
+          <Route path="UserGreetingIfElseTernaryMethod" element={<UserGreetingIfElseTernaryMethod />} />
           <Route path="Inline" element={<Inline />} />
         </Route>
       </Routes>

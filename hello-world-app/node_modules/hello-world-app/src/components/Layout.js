@@ -73,6 +73,9 @@ const Layout = () => {
             <Link to="/UserGreetingIfElseSecondMethod">UserGreetingIfElseSecondMethod</Link>
           </li>
           <li>
+            <Link to="/UserGreetingIfElseTernaryMethod">UserGreetingIfElseTernaryMethod</Link>
+          </li>
+          <li>
             <Link to="/Inline">Inline</Link>
           </li>
         </ul>

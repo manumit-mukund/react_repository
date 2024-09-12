@@ -22,6 +22,7 @@ import EventBindClassArrowFunction from './EventBindClassArrowFunction';
 import ParentComponent from './ParentComponent';
 import UserGreetingIfElse from './UserGreetingIfElse';
 import UserGreetingIfElseSecondMethod from './UserGreetingIfElseSecondMethod';
+import UserGreetingIfElseTernaryMethod from './UserGreetingIfElseTernaryMethod';
 
 
 export {
@@ -46,6 +47,7 @@ export {
     ParentComponent,
     UserGreetingIfElse,
     UserGreetingIfElseSecondMethod,
+    UserGreetingIfElseTernaryMethod,
     Inline,
     Stylesheet,
     Home,
