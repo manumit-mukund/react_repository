@@ -85,6 +85,12 @@ const Layout = () => {
             <Link to="/NameList2">NameList2</Link>
           </li>
           <li>
+            <Link to="/NameList3">NameList3</Link>
+          </li>
+          <li>
+            <Link to="/NameListKey">NameListKey</Link>
+          </li>
+          <li>
             <Link to="/Inline">Inline</Link>
           </li>
         </ul>

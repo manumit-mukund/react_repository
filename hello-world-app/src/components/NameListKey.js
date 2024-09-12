@@ -2,7 +2,8 @@ import React from 'react'
 
 function NameListKey() {
 
-    const names = ['RatneshK', 'RajivK', 'NavinK', 'RajivK']
+    const names = ['RatneshK', 'RajivK', 'NavinK']
+
     const nameList = names.map((name, index) => <h2 key={index}>{index} {name}</h2>)
 
     return (
