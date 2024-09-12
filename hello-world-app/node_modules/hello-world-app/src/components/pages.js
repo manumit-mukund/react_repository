@@ -20,6 +20,8 @@ import ClassClick from './ClassClick';
 import EventBindClass from './EventBindClass';
 import EventBindClassArrowFunction from './EventBindClassArrowFunction';
 import ParentComponent from './ParentComponent';
+import UserGreetingIfElse from './UserGreetingIfElse';
+
 
 export {
 
@@ -41,6 +43,7 @@ export {
     EventBindClass,
     EventBindClassArrowFunction,
     ParentComponent,
+    UserGreetingIfElse,
     Inline,
     Stylesheet,
     Home,

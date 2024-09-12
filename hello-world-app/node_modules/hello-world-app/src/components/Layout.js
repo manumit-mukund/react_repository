@@ -67,6 +67,9 @@ const Layout = () => {
             <Link to="/ParentComponent">ParentComponent</Link>
           </li>
           <li>
+            <Link to="/UserGreetingIfElse">UserGreetingIfElse</Link>
+          </li>
+          <li>
             <Link to="/Inline">Inline</Link>
           </li>
         </ul>

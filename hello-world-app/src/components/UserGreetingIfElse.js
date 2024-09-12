@@ -14,7 +14,6 @@ class UserGreetingIfElse extends Component {
 
     }
 
-
     render() {
 
         if (this.state.isLoggedin) {
