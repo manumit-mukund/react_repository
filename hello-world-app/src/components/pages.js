@@ -19,6 +19,7 @@ import FunctionClick from './FunctionClick';
 import ClassClick from './ClassClick';
 import EventBindClass from './EventBindClass';
 import EventBindClassArrowFunction from './EventBindClassArrowFunction';
+import ParentComponent from './ParentComponent';
 
 export {
 
@@ -39,6 +40,7 @@ export {
     ClassClick,
     EventBindClass,
     EventBindClassArrowFunction,
+    ParentComponent,
     Inline,
     Stylesheet,
     Home,

@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { GreetFunction, GreetConst, WelcomeClass, CreateElementUsingJSX, 
   CreateElementByReturn, GreetProps, GreetDestructureProps, GreetConstDestructureProps, WelcomeClassProps, MessageClass, 
   CounterClass, CounterClassPropsIncrementFive, CounterClassPrevState, FunctionClick, ClassClick, 
-  EventBindClass, EventBindClassArrowFunction,
+  EventBindClass, EventBindClassArrowFunction, ParentComponent,
   Inline, Home, Layout } from './components/pages';
 
 
@@ -34,6 +34,7 @@ function App() {
           <Route path="ClassClick" element={<ClassClick />} />
           <Route path="EventBindClass" element={<EventBindClass />} />
           <Route path="EventBindClassArrowFunction" element={<EventBindClassArrowFunction />} />
+          <Route path="ParentComponent" element={<ParentComponent />} />
           <Route path="Inline" element={<Inline />} />
         </Route>
       </Routes>

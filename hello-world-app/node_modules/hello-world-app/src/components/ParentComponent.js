@@ -22,7 +22,6 @@ class ParentComponent extends Component {
         alert('Hello, ' + this.state.parentName + ' from ' + childName)
     }
 
-
     render() {
 
         return (
