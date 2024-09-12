@@ -5,7 +5,7 @@ import { GreetFunction, GreetConst, WelcomeClass, CreateElementUsingJSX,
   CreateElementByReturn, GreetProps, GreetDestructureProps, GreetConstDestructureProps, WelcomeClassProps, MessageClass, 
   CounterClass, CounterClassPropsIncrementFive, CounterClassPrevState, FunctionClick, ClassClick, 
   EventBindClass, EventBindClassArrowFunction, ParentComponent, UserGreetingIfElse, 
-  UserGreetingIfElseSecondMethod, UserGreetingIfElseTernaryMethod,
+  UserGreetingIfElseSecondMethod, UserGreetingIfElseTernaryMethod, UserGreetingIfElseShortCircuit,
   Inline, Home, Layout } from './components/pages';
 
 
@@ -39,6 +39,7 @@ function App() {
           <Route path="UserGreetingIfElse" element={<UserGreetingIfElse />} />
           <Route path="UserGreetingIfElseSecondMethod" element={<UserGreetingIfElseSecondMethod />} />
           <Route path="UserGreetingIfElseTernaryMethod" element={<UserGreetingIfElseTernaryMethod />} />
+          <Route path="UserGreetingIfElseShortCircuit" element={<UserGreetingIfElseShortCircuit />} />
           <Route path="Inline" element={<Inline />} />
         </Route>
       </Routes>

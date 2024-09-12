@@ -23,6 +23,7 @@ import ParentComponent from './ParentComponent';
 import UserGreetingIfElse from './UserGreetingIfElse';
 import UserGreetingIfElseSecondMethod from './UserGreetingIfElseSecondMethod';
 import UserGreetingIfElseTernaryMethod from './UserGreetingIfElseTernaryMethod';
+import UserGreetingIfElseShortCircuit from './UserGreetingIfElseShortCircuit';
 
 
 export {
@@ -48,6 +49,7 @@ export {
     UserGreetingIfElse,
     UserGreetingIfElseSecondMethod,
     UserGreetingIfElseTernaryMethod,
+    UserGreetingIfElseShortCircuit,
     Inline,
     Stylesheet,
     Home,
