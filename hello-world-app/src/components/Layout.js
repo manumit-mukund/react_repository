@@ -79,6 +79,12 @@ const Layout = () => {
             <Link to="/UserGreetingIfElseShortCircuit">UserGreetingIfElseShortCircuit</Link>
           </li>
           <li>
+            <Link to="/NameList1">NameList1</Link>
+          </li>
+          <li>
+            <Link to="/NameList2">NameList2</Link>
+          </li>
+          <li>
             <Link to="/Inline">Inline</Link>
           </li>
         </ul>

@@ -24,6 +24,8 @@ import UserGreetingIfElse from './UserGreetingIfElse';
 import UserGreetingIfElseSecondMethod from './UserGreetingIfElseSecondMethod';
 import UserGreetingIfElseTernaryMethod from './UserGreetingIfElseTernaryMethod';
 import UserGreetingIfElseShortCircuit from './UserGreetingIfElseShortCircuit';
+import NameList1 from './NameList1';
+import NameList2 from './NameList2';
 
 
 export {
@@ -50,6 +52,8 @@ export {
     UserGreetingIfElseSecondMethod,
     UserGreetingIfElseTernaryMethod,
     UserGreetingIfElseShortCircuit,
+    NameList1,
+    NameList2,
     Inline,
     Stylesheet,
     Home,
