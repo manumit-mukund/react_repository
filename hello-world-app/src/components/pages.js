@@ -27,7 +27,7 @@ import UserGreetingIfElseShortCircuit from './UserGreetingIfElseShortCircuit';
 import NameList1 from './NameList1';
 import NameList2 from './NameList2';
 import NameList3 from './NameList3';
-import NameListKey from './NameListKey';
+import NameListKeyIndex from './NameListKeyIndex';
 
 
 export {
@@ -57,7 +57,7 @@ export {
     NameList1,
     NameList2,
     NameList3,
-    NameListKey,
+    NameListKeyIndex,
     Inline,
     Stylesheet,
     Home,
