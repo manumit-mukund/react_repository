@@ -1,7 +1,5 @@
 import GreetFunction from './GreetFunction';
 import GreetConst from './GreetConst';
-import Inline from './Inline';
-
 import Home from './Home';
 import Layout from './Layout';
 import WelcomeClass from './WelcomeClass';
@@ -29,7 +27,7 @@ import NameList2 from './NameList2';
 import NameList3 from './NameList3';
 import NameListKeyIndex from './NameListKeyIndex';
 import Stylesheet from './Stylesheet';
-
+import Inline from './Inline';
 
 
 export {
