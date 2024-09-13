@@ -6,7 +6,7 @@ import { GreetFunction, GreetConst, WelcomeClass, CreateElementUsingJSX,
   CounterClass, CounterClassPropsIncrementFive, CounterClassPrevState, FunctionClick, ClassClick, 
   EventBindClass, EventBindClassArrowFunction, ParentComponent, UserGreetingIfElse, 
   UserGreetingIfElseSecondMethod, UserGreetingIfElseTernaryMethod, UserGreetingIfElseShortCircuit, 
-  NameList1, NameList2, NameList3, NameListKeyIndex,
+  NameList1, NameList2, NameList3, NameListKeyIndex, Stylesheet,
   Inline, Home, Layout } from './components/pages';
 
 
@@ -45,6 +45,7 @@ function App() {
           <Route path="NameList2" element={<NameList2 />} />
           <Route path="NameList3" element={<NameList3 />} />
           <Route path="NameListKeyIndex" element={<NameListKeyIndex />} />
+          <Route path="Stylesheet" element={<Stylesheet  primary={true}/>} />
           <Route path="Inline" element={<Inline />} />
         </Route>
       </Routes>
