@@ -28,7 +28,7 @@ function App() {
           <Route path="GreetProps1" element={<GreetProps name="Lakhan" heroName='God Lakhan'><button>Action</button> </GreetProps>} />
           <Route path="GreetDestructureProps" element={<GreetDestructureProps name="Bharat" heroName='God Bharat'></GreetDestructureProps>} />
           <Route path="GreetConstDestructureProps" element={<GreetConstDestructureProps name="Shatrughan" heroName='God Shatrughan'></GreetConstDestructureProps>} />
-          <Route path="WelcomeClassProps" element={<WelcomeClassProps name="Ram4" heroName='God Ram4'><button>Action</button> </WelcomeClassProps>} />
+          <Route path="WelcomeClassProps" element={<WelcomeClassProps name="Ram4" heroName='God Ram4'><button>WelcomeClas Action</button> </WelcomeClassProps>} />
           <Route path="MessageClass" element={<MessageClass />} />
           <Route path="CounterClass" element={<CounterClass />} />
           <Route path="CounterClassPropsIncrementFive" element={<CounterClassPropsIncrementFive />} />

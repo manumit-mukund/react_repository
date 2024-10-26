@@ -1,13 +1,13 @@
 import React from 'react';
 
-const GreetProps = props => {
+const GreetProps = myprops => {
 
-    console.log(props.name)
+    console.log(myprops.name)
     //return <h1>Hello, {props.name} a.k.a {props.heroName}</h1>
     return (
         <div>
-            <h1>Hello, {props.name} a.k.a {props.heroName}</h1>
-            {props.children}
+            <h1>Hello, {myprops.name} a.k.a {myprops.heroName}</h1>
+            {myprops.children}
         </div>
     )
 

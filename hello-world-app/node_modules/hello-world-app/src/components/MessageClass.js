@@ -8,7 +8,7 @@ class MessageClass extends Component {
 
         this.state = {
 
-            message: 'Welcome, message constructor'
+            mymessage: 'Welcome, message constructor'
 
         }
     }
@@ -17,7 +17,7 @@ class MessageClass extends Component {
 
         this.setState({
 
-            message: 'Thanks for visitng the page!'
+            mymessage: 'Welcome, changeMessage()'
             
         })
     }
@@ -26,7 +26,7 @@ class MessageClass extends Component {
 
         return (
             <div>
-                <h1>{this.state.message}</h1>
+                <h1>{this.state.mymessage}</h1>
                 <button onClick={() => this.changeMessage()}>Click here</button>
             </div>
         )
