@@ -22,7 +22,7 @@ const Layout = () => {
             <Link to="/CreateElementUsingJSX">CreateElementUsingJSX</Link>
           </li>
           <li>
-            <Link to="/CreateElementByReturn">CreateElementByReturn</Link>
+            <Link to="/CreateElementUsingConstReturn">CreateElementUsingConstReturn</Link>
           </li>
           <li>
             <Link to="/GreetProps">GreetProps</Link>
