@@ -20,7 +20,7 @@ class CounterClassPropsIncrementFive extends Component {
 
         }, () => { console.log('Callback value', this.state.count) })
 
-        console.log(this.state.count)
+        console.log('this.state.count = ', this.state.count)
 
     }
 
@@ -39,7 +39,7 @@ class CounterClassPropsIncrementFive extends Component {
 
             <div>
                 <div>Count - {this.state.count}</div>
-                <button onClick={() => this.incrementFive()}>Increment</button>
+                <button onClick={() => this.incrementFive()}>Increment Five</button>
             </div>
         )
     }

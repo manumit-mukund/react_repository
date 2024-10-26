@@ -2,9 +2,9 @@ import React, { Component } from "react";
 
 class CounterClass extends Component {
 
-    constructor(props) {
+    constructor() {
 
-        super(props)
+        super()
 
         this.state = {
             count: 0
@@ -12,8 +12,7 @@ class CounterClass extends Component {
     }
 
     incrementCount() {
-
-        //this.state.count = this.state.count + 1
+      
         this.setState({
 
             count: this.state.count + 1
