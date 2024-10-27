@@ -3,9 +3,9 @@ import ChildComponent from './ChildComponent';
 
 class ParentComponent extends Component {
 
-    constructor(props) {
+    constructor() {
 
-        super(props)
+        super()
 
         this.state = {
 
@@ -17,8 +17,7 @@ class ParentComponent extends Component {
     }
 
     greetParent(childName) {
-
-        //alert('Hello'+ ${this.state.parentName} from ${childName}')
+        
         alert('Hello, ' + this.state.parentName + ' from ' + childName)
     }
 
@@ -26,7 +25,7 @@ class ParentComponent extends Component {
 
         return (
             <div>
-                <ChildComponent greetHandler={this.greetParent}></ChildComponent>
+                <ChildComponent mychildprop={this.greetParent}></ChildComponent>
             </div>
         )
     }
