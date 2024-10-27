@@ -64,6 +64,9 @@ const Layout = () => {
             <Link to="/EventBindClassArrowFunction">EventBindClassArrowFunction</Link>
           </li>
           <li>
+            <Link to="/EventBindClassArrowFunctionInClass">EventBindClassArrowFunctionInClass</Link>
+          </li>
+          <li>
             <Link to="/ParentComponent">ParentComponent</Link>
           </li>
           <li>

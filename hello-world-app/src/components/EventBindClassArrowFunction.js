@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 class EventBindClassArrowFunction extends Component {
 
-    constructor(props) {
+    constructor() {
 
-        super(props)
+        super()
 
         this.state = {
 
@@ -19,7 +19,7 @@ class EventBindClassArrowFunction extends Component {
         
         this.setState({
 
-            message: 'Goodbye'
+            message: 'Goodbye, EventBindClassArrowFunction...'
         }
 
         )

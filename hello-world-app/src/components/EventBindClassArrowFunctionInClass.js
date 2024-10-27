@@ -18,7 +18,7 @@ class EventBindClassArrowFunctionInClass extends Component {
 
         this.setState({
 
-            message: 'Goodbye'
+            message: 'Goodbye, EventBindClassArrowFunctionInClass...'
         })
     }
 
