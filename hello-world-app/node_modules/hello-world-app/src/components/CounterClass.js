@@ -12,6 +12,8 @@ class CounterClass extends Component {
     }
 
     incrementCount() {
+
+        //this.state.count = this.state.count + 1 //incorrect approach
       
         this.setState({
 

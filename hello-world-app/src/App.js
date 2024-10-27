@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import { GreetFunction, GreetConst, WelcomeClass, CreateElementUsingJSX, 
   CreateElementUsingConstReturn, GreetProps, GreetDestructureProps, GreetConstDestructureProps, WelcomeClassProps, MessageClass, 
-  CounterClass, CounterClassPropsIncrementFive, CounterClassIncrementFivePrevState, FunctionClick, ClassClick, 
+  CounterClass, CounterClassIncrementFive, CounterClassIncrementFivePrevState, FunctionClick, ClassClick, 
   EventBindClass, EventBindClassArrowFunction, ParentComponent, UserGreetingIfElse, 
   UserGreetingIfElseSecondMethod, UserGreetingIfElseTernaryMethod, UserGreetingIfElseShortCircuit, 
   NameList1, NameList2, NameList3, NameListKeyIndex, Stylesheet,
@@ -31,7 +31,7 @@ function App() {
           <Route path="WelcomeClassProps" element={<WelcomeClassProps name="Ram4" heroName='God Ram4'><button>WelcomeClas Action</button> </WelcomeClassProps>} />
           <Route path="MessageClass" element={<MessageClass />} />
           <Route path="CounterClass" element={<CounterClass />} />
-          <Route path="CounterClassPropsIncrementFive" element={<CounterClassPropsIncrementFive />} />
+          <Route path="CounterClassIncrementFive" element={<CounterClassIncrementFive />} />
           <Route path="CounterClassIncrementFivePrevState" element={<CounterClassIncrementFivePrevState />} />
           <Route path="FunctionClick" element={<FunctionClick />} />
           <Route path="ClassClick" element={<ClassClick />} />

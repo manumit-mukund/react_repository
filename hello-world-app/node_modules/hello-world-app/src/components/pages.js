@@ -11,7 +11,7 @@ import GreetConstDestructureProps from './GreetConstDestructureProps';
 import WelcomeClassProps from './WelcomeClassProps';
 import MessageClass from './MessageClass';
 import CounterClass from './CounterClass';
-import CounterClassPropsIncrementFive from './CounterClassPropsIncrementFive';
+import CounterClassIncrementFive from './CounterClassIncrementFive';
 import CounterClassIncrementFivePrevState from './CounterClassIncrementFivePrevState';
 import FunctionClick from './FunctionClick';
 import ClassClick from './ClassClick';
@@ -43,7 +43,7 @@ export {
     WelcomeClassProps,
     MessageClass,
     CounterClass,
-    CounterClassPropsIncrementFive,
+    CounterClassIncrementFive,
     CounterClassIncrementFivePrevState,
     FunctionClick,
     ClassClick,
