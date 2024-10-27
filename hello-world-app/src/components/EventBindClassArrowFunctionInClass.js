@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 class EventBindClassArrowFunctionInClass extends Component {
 
-    constructor(props) {
+    constructor() {
 
-        super(props)
+        super()
 
         this.state = {
 

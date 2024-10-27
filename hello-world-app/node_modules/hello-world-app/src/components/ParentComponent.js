@@ -9,7 +9,7 @@ class ParentComponent extends Component {
 
         this.state = {
 
-            parentName: 'Parent'
+            parentName: 'My Parents...'
 
         }
 
