@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 class EventBindClass extends Component {
 
-    constructor(props) {
+    constructor() {
 
-        super(props)
+        super()
 
         this.state = {
 
@@ -19,7 +19,7 @@ class EventBindClass extends Component {
         
         this.setState({
 
-            message: 'Goodbye'
+            message: 'Goodbye, EventBindClass...'
         }
 
         )
