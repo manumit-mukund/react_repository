@@ -1,9 +1,9 @@
 import React from 'react'
-import './myStyle.css'
+import '../css/myStyle.css'
 
 function Stylesheet(props) {
 
-    let className = props.primary ? 'primary' : ''
+    let className = props.primary ? 'primary1' : 'primary2'
 
     return (
 
