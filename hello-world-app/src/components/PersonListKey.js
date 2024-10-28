@@ -24,8 +24,8 @@ function PersonListKey() {
         }
     ]
 
-    const personList = persons.map(person => <PersonKey key = {person.id} person = {person} />)
-    
+    const personList = persons.map(person => <PersonKey mykey={person.id} myperson={person} />)
+
     return <div>{personList}</div>
 
 

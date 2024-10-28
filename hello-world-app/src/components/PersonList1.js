@@ -29,7 +29,7 @@ function PersonList1() {
             {person.id}, {person.name}, {person.age}
         </h2>
     ))
-    
+
     return <div>{personList}</div>
 
 }

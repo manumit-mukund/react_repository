@@ -1,14 +1,12 @@
 import React from 'react'
 
-function PersonKey({ person, key }) {
+function PersonKey({ myperson, mykey }) {
 
     return (
 
-        <div>
-            <h2>
-            {key}  {person.id}, {person.name}, {person.age}
-            </h2>
-        </div>
+        <h2>
+            {mykey}  {myperson.id}, {myperson.name}, {myperson.age}
+        </h2>
 
     )
 }

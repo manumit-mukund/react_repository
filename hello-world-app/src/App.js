@@ -9,7 +9,8 @@ import {
   EventBindClass, EventBindClassArrowFunction, EventBindClassArrowFunctionInClass,
   EventBindClassConstructor, ParentComponent, UserGreetingIfElse,
   UserGreetingIfElseSecondMethod, UserGreetingIfElseTernaryMethod, UserGreetingIfElseShortCircuit,
-  NameList1, NameList2, NameList3, NameListKeyIndex, PersonList, Stylesheet,
+  NameList1, NameList2, NameList3, NameListKeyIndex, PersonList, PersonList1, PersonListKey,
+  Stylesheet,
   Inline, Home, Layout
 } from './components/pages';
 
@@ -52,6 +53,8 @@ function App() {
           <Route path="NameList3" element={<NameList3 />} />
           <Route path="NameListKeyIndex" element={<NameListKeyIndex />} />
           <Route path="PersonList" element={<PersonList />} />
+          <Route path="PersonList1" element={<PersonList1 />} />
+          <Route path="PersonListKey" element={<PersonListKey />} />
           <Route path="Stylesheet" element={<Stylesheet primary={true} />} />
           <Route path="Inline" element={<Inline />} />
         </Route>
