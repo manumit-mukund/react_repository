@@ -7,7 +7,7 @@ const GreetConstDestructureProps = props => {
     return (
 
         <div>
-            <h1>Hello, GreetDestructureProps: {name} a.k.a {heroName}</h1>
+            <h1>Hello, GreetConstDestructureProps: {name} a.k.a {heroName}</h1>
         </div>
 
     )
