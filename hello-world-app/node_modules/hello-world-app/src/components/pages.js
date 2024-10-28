@@ -28,6 +28,7 @@ import NameList1 from './NameList1';
 import NameList2 from './NameList2';
 import NameList3 from './NameList3';
 import NameListKeyIndex from './NameListKeyIndex';
+import PersonList from './PersonList';
 import Stylesheet from './Stylesheet';
 import Inline from './Inline';
 
@@ -62,6 +63,7 @@ export {
     NameList2,
     NameList3,
     NameListKeyIndex,
+    PersonList,
     Stylesheet,
     Inline,    
     Home,

@@ -2,14 +2,16 @@ import React from 'react';
 //import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import { GreetFunction, GreetConst, WelcomeClass, CreateElementUsingJSX, 
-  CreateElementUsingConstReturn, GreetProps, GreetDestructureProps, GreetConstDestructureProps, WelcomeClassProps, MessageClass, 
-  CounterClass, CounterClassIncrementFive, CounterClassIncrementFivePrevState, FunctionClick, ClassClick, 
-  EventBindClass, EventBindClassArrowFunction, EventBindClassArrowFunctionInClass, 
-  EventBindClassConstructor, ParentComponent, UserGreetingIfElse, 
-  UserGreetingIfElseSecondMethod, UserGreetingIfElseTernaryMethod, UserGreetingIfElseShortCircuit, 
-  NameList1, NameList2, NameList3, NameListKeyIndex, Stylesheet,
-  Inline, Home, Layout } from './components/pages';
+import {
+  GreetFunction, GreetConst, WelcomeClass, CreateElementUsingJSX,
+  CreateElementUsingConstReturn, GreetProps, GreetDestructureProps, GreetConstDestructureProps, WelcomeClassProps, MessageClass,
+  CounterClass, CounterClassIncrementFive, CounterClassIncrementFivePrevState, FunctionClick, ClassClick,
+  EventBindClass, EventBindClassArrowFunction, EventBindClassArrowFunctionInClass,
+  EventBindClassConstructor, ParentComponent, UserGreetingIfElse,
+  UserGreetingIfElseSecondMethod, UserGreetingIfElseTernaryMethod, UserGreetingIfElseShortCircuit,
+  NameList1, NameList2, NameList3, NameListKeyIndex, PersonList, Stylesheet,
+  Inline, Home, Layout
+} from './components/pages';
 
 
 function App() {
@@ -49,7 +51,8 @@ function App() {
           <Route path="NameList2" element={<NameList2 />} />
           <Route path="NameList3" element={<NameList3 />} />
           <Route path="NameListKeyIndex" element={<NameListKeyIndex />} />
-          <Route path="Stylesheet" element={<Stylesheet  primary={true}/>} />
+          <Route path="PersonList" element={<PersonList />} />
+          <Route path="Stylesheet" element={<Stylesheet primary={true} />} />
           <Route path="Inline" element={<Inline />} />
         </Route>
       </Routes>

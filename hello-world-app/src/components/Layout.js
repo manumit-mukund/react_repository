@@ -97,6 +97,9 @@ const Layout = () => {
             <Link to="/NameListKeyIndex">NameListKeyIndex</Link>
           </li>
           <li>
+            <Link to="/PersonList">PersonList</Link>
+          </li>
+          <li>
             <Link to="/Stylesheet">Stylesheet</Link>
           </li>
           <li>
