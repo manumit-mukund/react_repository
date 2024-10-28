@@ -18,6 +18,7 @@ import ClassClick from './ClassClick';
 import EventBindClass from './EventBindClass';
 import EventBindClassArrowFunction from './EventBindClassArrowFunction';
 import EventBindClassArrowFunctionInClass from './EventBindClassArrowFunctionInClass';
+import EventBindClassConstructor from './EventBindClassConstructor';
 import ParentComponent from './ParentComponent';
 import UserGreetingIfElse from './UserGreetingIfElse';
 import UserGreetingIfElseSecondMethod from './UserGreetingIfElseSecondMethod';
@@ -51,6 +52,7 @@ export {
     EventBindClass,
     EventBindClassArrowFunction,
     EventBindClassArrowFunctionInClass,
+    EventBindClassConstructor,
     ParentComponent,
     UserGreetingIfElse,
     UserGreetingIfElseSecondMethod,

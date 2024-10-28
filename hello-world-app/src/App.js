@@ -5,7 +5,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { GreetFunction, GreetConst, WelcomeClass, CreateElementUsingJSX, 
   CreateElementUsingConstReturn, GreetProps, GreetDestructureProps, GreetConstDestructureProps, WelcomeClassProps, MessageClass, 
   CounterClass, CounterClassIncrementFive, CounterClassIncrementFivePrevState, FunctionClick, ClassClick, 
-  EventBindClass, EventBindClassArrowFunction, EventBindClassArrowFunctionInClass, ParentComponent, UserGreetingIfElse, 
+  EventBindClass, EventBindClassArrowFunction, EventBindClassArrowFunctionInClass, 
+  EventBindClassConstructor, ParentComponent, UserGreetingIfElse, 
   UserGreetingIfElseSecondMethod, UserGreetingIfElseTernaryMethod, UserGreetingIfElseShortCircuit, 
   NameList1, NameList2, NameList3, NameListKeyIndex, Stylesheet,
   Inline, Home, Layout } from './components/pages';
@@ -38,6 +39,7 @@ function App() {
           <Route path="EventBindClass" element={<EventBindClass />} />
           <Route path="EventBindClassArrowFunction" element={<EventBindClassArrowFunction />} />
           <Route path="EventBindClassArrowFunctionInClass" element={<EventBindClassArrowFunctionInClass />} />
+          <Route path="EventBindClassConstructor" element={<EventBindClassConstructor />} />
           <Route path="ParentComponent" element={<ParentComponent />} />
           <Route path="UserGreetingIfElse" element={<UserGreetingIfElse />} />
           <Route path="UserGreetingIfElseSecondMethod" element={<UserGreetingIfElseSecondMethod />} />

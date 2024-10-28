@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 class EventBindClassConstructor extends Component {
 
-    constructor(props) {
+    constructor() {
 
-        super(props)
+        super()
 
         this.state = {
 
@@ -18,9 +18,10 @@ class EventBindClassConstructor extends Component {
     clickHandler() {
 
         console.log('Hello, EventBindClassConstructor')
+
         this.setState({
 
-            message: 'Goodbye'
+            message: 'Goodbye, EventBindClassConstructor'
         }
 
         )
