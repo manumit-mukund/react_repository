@@ -55,7 +55,7 @@ function App() {
           <Route path="PersonList" element={<PersonList />} />
           <Route path="PersonList1" element={<PersonList1 />} />
           <Route path="PersonListKey" element={<PersonListKey />} />
-          <Route path="Stylesheet" element={<Stylesheet primary={true} />} />
+          <Route path="Stylesheet" element={<Stylesheet primary={false} />} />
           <Route path="Inline" element={<Inline />} />
         </Route>
       </Routes>
