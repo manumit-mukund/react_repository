@@ -2,7 +2,7 @@ import React from 'react'
 
 const heading = {
 
-    fontSize: '25px',
+    fontSize: '30px',
     color: 'blue'
 }
 
