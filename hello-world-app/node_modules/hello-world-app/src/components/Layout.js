@@ -40,6 +40,9 @@ const Layout = () => {
             <Link to="/WelcomeClassProps">WelcomeClassProps</Link>
           </li>
           <li>
+            <Link to="/WelcomeClassDestructureProps">WelcomeClassDestructureProps</Link>
+          </li>
+          <li>
             <Link to="/MessageClass">MessageClass</Link>
           </li>
           <li>

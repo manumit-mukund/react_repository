@@ -9,6 +9,7 @@ import GreetProps from './GreetProps';
 import GreetDestructureProps from './GreetDestructureProps';
 import GreetConstDestructureProps from './GreetConstDestructureProps';
 import WelcomeClassProps from './WelcomeClassProps';
+import WelcomeClassDestructureProps from './WelcomeClassDestructureProps';
 import MessageClass from './MessageClass';
 import CounterClass from './CounterClass';
 import CounterClassIncrementFive from './CounterClassIncrementFive';
@@ -46,6 +47,7 @@ export {
     GreetDestructureProps,
     GreetConstDestructureProps,
     WelcomeClassProps,
+    WelcomeClassDestructureProps,
     MessageClass,
     CounterClass,
     CounterClassIncrementFive,
