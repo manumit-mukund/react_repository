@@ -34,6 +34,7 @@ import PersonList1 from './PersonList1';
 import PersonListKey from './PersonListKey';
 import Stylesheet from './Stylesheet';
 import Inline from './Inline';
+import ProfilerTest from './ProfilerTest';
 
 
 export {
@@ -73,6 +74,7 @@ export {
     Stylesheet,
     Inline,    
     Home,
-    Layout
+    Layout,
+    ProfilerTest
 
 }

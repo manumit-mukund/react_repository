@@ -6,6 +6,7 @@
     "cookie-parser": "^1.4.6",
     "csrf-csrf": "^3.0.6",
     "ejs": "^3.1.10",
+    "form": "^0.2.5",
     "hello-world-app": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

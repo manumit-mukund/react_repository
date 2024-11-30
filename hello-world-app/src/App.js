@@ -12,7 +12,7 @@ import {
   UserGreetingIfElseSecondMethod, UserGreetingIfElseTernaryMethod, UserGreetingIfElseShortCircuit,
   NameList1, NameList2, NameList3, NameListKeyIndex, PersonList, PersonList1, PersonListKey,
   Stylesheet,
-  Inline, Home, Layout
+  Inline, Home, Layout, ProfilerTest
 } from './components/pages';
 
 
@@ -59,6 +59,7 @@ function App() {
           <Route path="PersonListKey" element={<PersonListKey />} />
           <Route path="Stylesheet" element={<Stylesheet primary={false} />} />
           <Route path="Inline" element={<Inline />} />
+          <Route path="ProfilerTest" element={<ProfilerTest />} />
         </Route>
       </Routes>
     </BrowserRouter>

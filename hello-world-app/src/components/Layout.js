@@ -114,6 +114,9 @@ const Layout = () => {
           <li>
             <Link to="/Inline">Inline</Link>
           </li>
+          <li>
+            <Link to="/ProfilerTest">ProfilerTest</Link>
+          </li>
         </ul>
       </nav>
 
