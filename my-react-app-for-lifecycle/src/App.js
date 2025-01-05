@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import MyComponent from './components/MyComponent ';
 import Counter from './components/Counter ';
-
+import TimerComponent from './components/TimerComponent ';
 import './App.css';
+
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <h1>Hello World!</h1>
       <MyComponent></MyComponent>
       <Counter></Counter>
+      <TimerComponent></TimerComponent>
     </div>
 
   );

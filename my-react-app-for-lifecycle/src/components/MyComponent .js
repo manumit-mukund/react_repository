@@ -8,7 +8,7 @@ class MyComponent extends Component {
 
             console.log('Data loaded!');
 
-        }, 1000);
+        }, 2000);
 
     }
 
