@@ -4,7 +4,7 @@ function FunctionClick() {
 
     function clickHandler() {
 
-        console.log('Buton clicked')
+        console.log('Button clicked')
     }
 
     return (
