@@ -8,7 +8,7 @@ function GreetFunction() {
 
         <div>
 
-            <h1>Hello, GreetFunction</h1>
+            <h2>Hello, GreetFunction</h2>
 
         </div>
     )
