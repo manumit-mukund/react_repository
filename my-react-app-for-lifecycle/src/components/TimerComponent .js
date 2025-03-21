@@ -5,9 +5,13 @@ class TimerComponent extends Component {
     constructor() {
 
         super();
+
         this.state = {
+
             seconds: 0,
+
         };
+        
         this.timer = null; // Initialize the timer
 
     }
