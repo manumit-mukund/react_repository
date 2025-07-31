@@ -28,7 +28,7 @@ const Layout = () => {
             <Link to="/GreetConstProps">GreetConstProps</Link>
           </li>
           <li>
-            <Link to="/GreetProps1">GreetProps1</Link>
+            <Link to="/GreetConstProps1">GreetConstProps1</Link>
           </li>
           <li>
             <Link to="/GreetDestructureProps">GreetDestructureProps</Link>
