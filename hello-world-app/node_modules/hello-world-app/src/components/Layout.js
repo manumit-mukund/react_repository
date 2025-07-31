@@ -25,7 +25,7 @@ const Layout = () => {
             <Link to="/CreateElementUsingConstReturn">CreateElementUsingConstReturn</Link>
           </li>
           <li>
-            <Link to="/GreetProps">GreetProps</Link>
+            <Link to="/GreetConstProps">GreetConstProps</Link>
           </li>
           <li>
             <Link to="/GreetProps1">GreetProps1</Link>
