@@ -5,7 +5,7 @@ import Layout from './Layout';
 import WelcomeClass from './WelcomeClass';
 import CreateElementUsingJSX from './CreateElementUsingJSX';
 import CreateElementUsingConstReturn from './CreateElementUsingConstReturn';
-import GreetConstProps from './GreetConstProps';
+import GreetProps from './GreetProps';
 import GreetDestructureProps from './GreetDestructureProps';
 import GreetConstDestructureProps from './GreetConstDestructureProps';
 import WelcomeClassProps from './WelcomeClassProps';
@@ -44,7 +44,7 @@ export {
     WelcomeClass,
     CreateElementUsingJSX,
     CreateElementUsingConstReturn,
-    GreetConstProps,
+    GreetProps,
     GreetDestructureProps,
     GreetConstDestructureProps,
     WelcomeClassProps,

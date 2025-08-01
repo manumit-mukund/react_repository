@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import {
   GreetFunction, GreetConst, WelcomeClass, CreateElementUsingJSX,
-  CreateElementUsingConstReturn, GreetConstProps, GreetDestructureProps, GreetConstDestructureProps, 
+  CreateElementUsingConstReturn, GreetProps, GreetDestructureProps, GreetConstDestructureProps, 
   WelcomeClassProps, WelcomeClassDestructureProps, MessageClass,
   CounterClass, CounterClassIncrementFive, CounterClassIncrementFivePrevState, FunctionClick, ClassClick,
   EventBindClass, EventBindClassArrowFunction, EventBindClassArrowFunctionInClass,
@@ -29,8 +29,8 @@ function App() {
           <Route path="WelcomeClass" element={<WelcomeClass />} />
           <Route path="CreateElementUsingJSX" element={<CreateElementUsingJSX />} />
           <Route path="CreateElementUsingConstReturn" element={<CreateElementUsingConstReturn />} />
-          <Route path="GreetConstProps" element={<GreetConstProps name="Rajiba" heroName='Java Champion'><p>Child1-1</p><p>Child1-2</p> </GreetConstProps>} />
-          <Route path="GreetConstProps1" element={<GreetConstProps name="Lakhan" heroName='God Lakhan'><button>Action</button> </GreetConstProps>} />
+          <Route path="GreetProps" element={<GreetProps name="Rajiba" heroName='Java Champion'><p>Child1-1</p><p>Child1-2</p> </GreetProps>} />
+          <Route path="GreetProps1" element={<GreetProps name="Lakhan" heroName='God Lakhan'><button>Action</button> </GreetProps>} />
           <Route path="GreetDestructureProps" element={<GreetDestructureProps name="Bharat" heroName='God Bharat'></GreetDestructureProps>} />
           <Route path="GreetConstDestructureProps" element={<GreetConstDestructureProps name="Shatrughan" heroName='God Shatrughan'></GreetConstDestructureProps>} />
           <Route path="WelcomeClassProps" element={<WelcomeClassProps name="Ramesh" heroName='Kumar'><button>WelcomeClas Action</button> </WelcomeClassProps>} />

@@ -25,10 +25,10 @@ const Layout = () => {
             <Link to="/CreateElementUsingConstReturn">CreateElementUsingConstReturn</Link>
           </li>
           <li>
-            <Link to="/GreetConstProps">GreetConstProps</Link>
+            <Link to="/GreetProps">GreetProps</Link>
           </li>
           <li>
-            <Link to="/GreetConstProps1">GreetConstProps1</Link>
+            <Link to="/GreetProps1">GreetProps1</Link>
           </li>
           <li>
             <Link to="/GreetDestructureProps">GreetDestructureProps</Link>
