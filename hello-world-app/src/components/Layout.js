@@ -103,7 +103,7 @@ const Layout = () => {
             <Link to="/NameListKeyIndex">NameListKeyIndex</Link>
           </li>
           <li>
-            <Link to="/PersonList">PersonList</Link>
+            <Link to="/PersonListCallingPersonWithProp">PersonListCallingPersonWithProp</Link>
           </li>
           <li>
             <Link to="/PersonList1">PersonList1</Link>

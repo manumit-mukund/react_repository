@@ -30,7 +30,7 @@ import NameListConst from './NameListConst';
 import NameListConstMap from './NameListConstMap';
 import NameListConstMapTogether from './NameListConstMapTogether';
 import NameListKeyIndex from './NameListKeyIndex';
-import PersonList from './PersonList';
+import PersonListCallingPersonWithProp from './PersonListCallingPersonWithProp';
 import PersonList1 from './PersonList1';
 import PersonListKey from './PersonListKey';
 import Stylesheet from './Stylesheet';
@@ -70,7 +70,7 @@ export {
     NameListConstMap,
     NameListConstMapTogether,
     NameListKeyIndex,
-    PersonList,
+    PersonListCallingPersonWithProp,
     PersonList1,
     PersonListKey,
     Stylesheet,
