@@ -11,7 +11,7 @@ import {
   EventBindClassConstructor, ParentComponent, UserGreetingIfElseMultipleReturns,
   UserGreetingIfElseOneReturn, UserGreetingIfElseTernaryMethod, UserGreetingIfElseShortCircuit,
   NameListConst, NameListConstMap, NameListConstMapTogether, NameListKeyIndex, PersonListCallingPersonWithProp, PersonListConstMap, PersonListKeyCallingPersonKeyWithProp,
-  Stylesheet,
+  StylesheetWithProp,
   Inline, Home, Layout, ProfilerTest
 } from './components/pages';
 
@@ -58,7 +58,7 @@ function App() {
           <Route path="PersonListCallingPersonWithProp" element={<PersonListCallingPersonWithProp />} />
           <Route path="PersonListConstMap" element={<PersonListConstMap />} />
           <Route path="PersonListKeyCallingPersonKeyWithProp" element={<PersonListKeyCallingPersonKeyWithProp />} />
-          <Route path="Stylesheet" element={<Stylesheet primary={false} />} />
+          <Route path="StylesheetWithProp" element={<StylesheetWithProp primary={false} />} />
           <Route path="Inline" element={<Inline />} />
           <Route path="ProfilerTest" element={<ProfilerTest />} />
         </Route>

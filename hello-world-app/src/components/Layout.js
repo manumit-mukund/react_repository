@@ -112,7 +112,7 @@ const Layout = () => {
             <Link to="/PersonListKeyCallingPersonKeyWithProp">PersonListKeyCallingPersonKeyWithProp</Link>
           </li>
           <li>
-            <Link to="/Stylesheet">Stylesheet</Link>
+            <Link to="/StylesheetWithProp">StylesheetWithProp</Link>
           </li>
           <li>
             <Link to="/Inline">Inline</Link>
