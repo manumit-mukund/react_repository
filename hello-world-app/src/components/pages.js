@@ -36,10 +36,12 @@ import PersonListKeyCallingPersonKeyWithProp from './PersonListKeyCallingPersonK
 import StylesheetWithProp from './StylesheetWithProp';
 import Inline from './Inline';
 import ProfilerTest from './ProfilerTest';
+import BrowserRouterComponent from './BrowserRouterComponent.js';
 
 
 export {
 
+    BrowserRouterComponent,
     GreetFunction,
     GreetConst,
     WelcomeClass,
