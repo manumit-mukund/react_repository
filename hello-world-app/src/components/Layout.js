@@ -91,10 +91,10 @@ const Layout = () => {
             <Link to="/UserGreetingIfElseShortCircuit">UserGreetingIfElseShortCircuit</Link>
           </li>
           <li>
-            <Link to="/NameList1">NameList1</Link>
+            <Link to="/NameListConst">NameListConst</Link>
           </li>
           <li>
-            <Link to="/NameList2">NameList2</Link>
+            <Link to="/NameListConstMap">NameListConstMap</Link>
           </li>
           <li>
             <Link to="/NameList3">NameList3</Link>

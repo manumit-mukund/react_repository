@@ -26,8 +26,8 @@ import UserGreetingIfElseMultipleReturns from './UserGreetingIfElseMultipleRetur
 import UserGreetingIfElseOneReturn from './UserGreetingIfElseOneReturn';
 import UserGreetingIfElseTernaryMethod from './UserGreetingIfElseTernaryMethod';
 import UserGreetingIfElseShortCircuit from './UserGreetingIfElseShortCircuit';
-import NameList1 from './NameList1';
-import NameList2 from './NameList2';
+import NameListConst from './NameListConst';
+import NameListConstMap from './NameListConstMap';
 import NameList3 from './NameList3';
 import NameListKeyIndex from './NameListKeyIndex';
 import PersonList from './PersonList';
@@ -66,8 +66,8 @@ export {
     UserGreetingIfElseOneReturn,
     UserGreetingIfElseTernaryMethod,
     UserGreetingIfElseShortCircuit,
-    NameList1,
-    NameList2,
+    NameListConst,
+    NameListConstMap,
     NameList3,
     NameListKeyIndex,
     PersonList,

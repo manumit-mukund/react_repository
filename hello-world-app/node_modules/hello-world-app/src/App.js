@@ -10,7 +10,7 @@ import {
   EventBindClass, EventBindClassArrowFunction, EventBindClassArrowFunctionInClass,
   EventBindClassConstructor, ParentComponent, UserGreetingIfElseMultipleReturns,
   UserGreetingIfElseOneReturn, UserGreetingIfElseTernaryMethod, UserGreetingIfElseShortCircuit,
-  NameList1, NameList2, NameList3, NameListKeyIndex, PersonList, PersonList1, PersonListKey,
+  NameListConst, NameListConstMap, NameList3, NameListKeyIndex, PersonList, PersonList1, PersonListKey,
   Stylesheet,
   Inline, Home, Layout, ProfilerTest
 } from './components/pages';
@@ -51,8 +51,8 @@ function App() {
           <Route path="UserGreetingIfElseOneReturn" element={<UserGreetingIfElseOneReturn />} />
           <Route path="UserGreetingIfElseTernaryMethod" element={<UserGreetingIfElseTernaryMethod />} />
           <Route path="UserGreetingIfElseShortCircuit" element={<UserGreetingIfElseShortCircuit />} />
-          <Route path="NameList1" element={<NameList1 />} />
-          <Route path="NameList2" element={<NameList2 />} />
+          <Route path="NameListConst" element={<NameListConst />} />
+          <Route path="NameListConstMap" element={<NameListConstMap />} />
           <Route path="NameList3" element={<NameList3 />} />
           <Route path="NameListKeyIndex" element={<NameListKeyIndex />} />
           <Route path="PersonList" element={<PersonList />} />
