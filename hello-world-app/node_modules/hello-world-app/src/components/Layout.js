@@ -106,7 +106,7 @@ const Layout = () => {
             <Link to="/PersonListCallingPersonWithProp">PersonListCallingPersonWithProp</Link>
           </li>
           <li>
-            <Link to="/PersonList1">PersonList1</Link>
+            <Link to="/PersonListConstMap">PersonListConstMap</Link>
           </li>
           <li>
             <Link to="/PersonListKey">PersonListKey</Link>

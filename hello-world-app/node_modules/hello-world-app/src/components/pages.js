@@ -31,7 +31,7 @@ import NameListConstMap from './NameListConstMap';
 import NameListConstMapTogether from './NameListConstMapTogether';
 import NameListKeyIndex from './NameListKeyIndex';
 import PersonListCallingPersonWithProp from './PersonListCallingPersonWithProp';
-import PersonList1 from './PersonList1';
+import PersonListConstMap from './PersonListConstMap';
 import PersonListKey from './PersonListKey';
 import Stylesheet from './Stylesheet';
 import Inline from './Inline';
@@ -71,7 +71,7 @@ export {
     NameListConstMapTogether,
     NameListKeyIndex,
     PersonListCallingPersonWithProp,
-    PersonList1,
+    PersonListConstMap,
     PersonListKey,
     Stylesheet,
     Inline,    
