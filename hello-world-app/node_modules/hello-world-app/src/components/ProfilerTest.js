@@ -2,6 +2,7 @@ import { Profiler } from "react";
 //import Form from "./Form";
 
 const callback = (
+
     id,
     phase,
     actualDuration,
@@ -9,6 +10,7 @@ const callback = (
     baseDuration,
     commitTime,
     interactions
+
 ) => {
     console.log(
         "id " +
@@ -29,10 +31,13 @@ const callback = (
 };
 
 function ProfilerTest() {
+
     return (
+
         <Profiler id="ProfilerTest" onRender={callback}>
             <div>ProfilerTest</div>
         </Profiler>
+        
     );
 }
 
