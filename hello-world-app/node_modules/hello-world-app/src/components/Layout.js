@@ -97,7 +97,7 @@ const Layout = () => {
             <Link to="/NameListConstMap">NameListConstMap</Link>
           </li>
           <li>
-            <Link to="/NameList3">NameList3</Link>
+            <Link to="/NameListConstMapTogether">NameListConstMapTogether</Link>
           </li>
           <li>
             <Link to="/NameListKeyIndex">NameListKeyIndex</Link>
