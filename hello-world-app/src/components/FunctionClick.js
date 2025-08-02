@@ -5,6 +5,7 @@ function FunctionClick() {
     function clickHandler() {
 
         console.log('Button clicked')
+
     }
 
     return (
