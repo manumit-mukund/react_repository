@@ -32,7 +32,7 @@ import NameListConstMapTogether from './NameListConstMapTogether';
 import NameListKeyIndex from './NameListKeyIndex';
 import PersonListCallingPersonWithProp from './PersonListCallingPersonWithProp';
 import PersonListConstMap from './PersonListConstMap';
-import PersonListKey from './PersonListKey';
+import PersonListKeyCallingPersonKeyWithProp from './PersonListKeyCallingPersonKeyWithProp';
 import Stylesheet from './Stylesheet';
 import Inline from './Inline';
 import ProfilerTest from './ProfilerTest';
@@ -72,7 +72,7 @@ export {
     NameListKeyIndex,
     PersonListCallingPersonWithProp,
     PersonListConstMap,
-    PersonListKey,
+    PersonListKeyCallingPersonKeyWithProp,
     Stylesheet,
     Inline,    
     Home,
