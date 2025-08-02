@@ -7,14 +7,16 @@ class CounterClass extends Component {
         super()
 
         this.state = {
+
             count: 0
+
         }
     }
 
     incrementCount() {
 
         //this.state.count = this.state.count + 1 //incorrect approach
-      
+
         this.setState({
 
             count: this.state.count + 1
