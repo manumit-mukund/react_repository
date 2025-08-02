@@ -7,7 +7,9 @@ class CounterClassIncrementFive extends Component {
         super()
 
         this.state = {
+
             count: 0
+            
         }
     }
 
