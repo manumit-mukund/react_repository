@@ -8,7 +8,7 @@ import {
   WelcomeClassProps, WelcomeClassDestructureProps, MessageClass,
   CounterClass, CounterClassIncrementFive, CounterClassIncrementFivePrevState, CounterClassProps, FunctionClick, ClassClick,
   EventBindClass, EventBindClassArrowFunction, EventBindClassArrowFunctionInClass,
-  EventBindClassConstructor, ParentComponent, UserGreetingIfElse,
+  EventBindClassConstructor, ParentComponent, UserGreetingIfElseMultipleReturns,
   UserGreetingIfElseSecondMethod, UserGreetingIfElseTernaryMethod, UserGreetingIfElseShortCircuit,
   NameList1, NameList2, NameList3, NameListKeyIndex, PersonList, PersonList1, PersonListKey,
   Stylesheet,
@@ -47,7 +47,7 @@ function App() {
           <Route path="EventBindClassArrowFunctionInClass" element={<EventBindClassArrowFunctionInClass />} />
           <Route path="EventBindClassConstructor" element={<EventBindClassConstructor />} />
           <Route path="ParentComponent" element={<ParentComponent />} />
-          <Route path="UserGreetingIfElse" element={<UserGreetingIfElse />} />
+          <Route path="UserGreetingIfElseMultipleReturns" element={<UserGreetingIfElseMultipleReturns />} />
           <Route path="UserGreetingIfElseSecondMethod" element={<UserGreetingIfElseSecondMethod />} />
           <Route path="UserGreetingIfElseTernaryMethod" element={<UserGreetingIfElseTernaryMethod />} />
           <Route path="UserGreetingIfElseShortCircuit" element={<UserGreetingIfElseShortCircuit />} />

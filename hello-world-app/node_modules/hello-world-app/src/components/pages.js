@@ -22,7 +22,7 @@ import EventBindClassArrowFunction from './EventBindClassArrowFunction';
 import EventBindClassArrowFunctionInClass from './EventBindClassArrowFunctionInClass';
 import EventBindClassConstructor from './EventBindClassConstructor';
 import ParentComponent from './ParentComponent';
-import UserGreetingIfElse from './UserGreetingIfElse';
+import UserGreetingIfElseMultipleReturns from './UserGreetingIfElseMultipleReturns';
 import UserGreetingIfElseSecondMethod from './UserGreetingIfElseSecondMethod';
 import UserGreetingIfElseTernaryMethod from './UserGreetingIfElseTernaryMethod';
 import UserGreetingIfElseShortCircuit from './UserGreetingIfElseShortCircuit';
@@ -62,7 +62,7 @@ export {
     EventBindClassArrowFunctionInClass,
     EventBindClassConstructor,
     ParentComponent,
-    UserGreetingIfElse,
+    UserGreetingIfElseMultipleReturns,
     UserGreetingIfElseSecondMethod,
     UserGreetingIfElseTernaryMethod,
     UserGreetingIfElseShortCircuit,
