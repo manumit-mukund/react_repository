@@ -1,5 +1,5 @@
 import React from 'react'
-import Person from './Person'
+import PersonWithProp from './PersonWithProp'
 
 function PersonList() {
 
@@ -24,7 +24,7 @@ function PersonList() {
         }
     ]
 
-    const personList = persons.map(person => <Person myperson={person} />)
+    const personList = persons.map(person => <PersonWithProp myperson={person} />)
 
     return <div>{personList}</div>
 
