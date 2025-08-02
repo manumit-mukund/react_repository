@@ -9,7 +9,7 @@ import {
   CounterClass, CounterClassIncrementFive, CounterClassIncrementFivePrevState, CounterClassProps, FunctionClick, ClassClick,
   EventBindClass, EventBindClassArrowFunction, EventBindClassArrowFunctionInClass,
   EventBindClassConstructor, ParentComponent, UserGreetingIfElseMultipleReturns,
-  UserGreetingIfElseSecondMethod, UserGreetingIfElseTernaryMethod, UserGreetingIfElseShortCircuit,
+  UserGreetingIfElseOneReturn, UserGreetingIfElseTernaryMethod, UserGreetingIfElseShortCircuit,
   NameList1, NameList2, NameList3, NameListKeyIndex, PersonList, PersonList1, PersonListKey,
   Stylesheet,
   Inline, Home, Layout, ProfilerTest
@@ -48,7 +48,7 @@ function App() {
           <Route path="EventBindClassConstructor" element={<EventBindClassConstructor />} />
           <Route path="ParentComponent" element={<ParentComponent />} />
           <Route path="UserGreetingIfElseMultipleReturns" element={<UserGreetingIfElseMultipleReturns />} />
-          <Route path="UserGreetingIfElseSecondMethod" element={<UserGreetingIfElseSecondMethod />} />
+          <Route path="UserGreetingIfElseOneReturn" element={<UserGreetingIfElseOneReturn />} />
           <Route path="UserGreetingIfElseTernaryMethod" element={<UserGreetingIfElseTernaryMethod />} />
           <Route path="UserGreetingIfElseShortCircuit" element={<UserGreetingIfElseShortCircuit />} />
           <Route path="NameList1" element={<NameList1 />} />

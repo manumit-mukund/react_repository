@@ -82,7 +82,7 @@ const Layout = () => {
             <Link to="/UserGreetingIfElseMultipleReturns">UserGreetingIfElseMultipleReturns</Link>
           </li>
           <li>
-            <Link to="/UserGreetingIfElseSecondMethod">UserGreetingIfElseSecondMethod</Link>
+            <Link to="/UserGreetingIfElseOneReturn">UserGreetingIfElseOneReturn</Link>
           </li>
           <li>
             <Link to="/UserGreetingIfElseTernaryMethod">UserGreetingIfElseTernaryMethod</Link>
