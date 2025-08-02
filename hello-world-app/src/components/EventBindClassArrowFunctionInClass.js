@@ -16,6 +16,8 @@ class EventBindClassArrowFunctionInClass extends Component {
 
     clickHandler = () => {
 
+         console.log(this.state.message)
+
         this.setState({
 
             message: 'Goodbye, EventBindClassArrowFunctionInClass...'

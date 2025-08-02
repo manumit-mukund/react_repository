@@ -15,7 +15,7 @@ class EventBindClassArrowFunction extends Component {
 
     clickHandler() {
 
-        console.log('Hello, EventBindClassArrowFunction')
+        console.log(this.state.message)
         
         this.setState({
 
