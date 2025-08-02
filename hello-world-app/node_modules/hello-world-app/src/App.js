@@ -6,7 +6,7 @@ import {
   GreetFunction, GreetConst, WelcomeClass, CreateElementUsingJSX,
   CreateElementUsingConstReturn, GreetProps, GreetDestructureProps, GreetConstDestructureProps, 
   WelcomeClassProps, WelcomeClassDestructureProps, MessageClass,
-  CounterClass, CounterClassIncrementFive, CounterClassIncrementFivePrevState, FunctionClick, ClassClick,
+  CounterClass, CounterClassIncrementFive, CounterClassIncrementFivePrevState, CounterClassProps, FunctionClick, ClassClick,
   EventBindClass, EventBindClassArrowFunction, EventBindClassArrowFunctionInClass,
   EventBindClassConstructor, ParentComponent, UserGreetingIfElse,
   UserGreetingIfElseSecondMethod, UserGreetingIfElseTernaryMethod, UserGreetingIfElseShortCircuit,
@@ -39,6 +39,7 @@ function App() {
           <Route path="CounterClass" element={<CounterClass />} />
           <Route path="CounterClassIncrementFive" element={<CounterClassIncrementFive />} />
           <Route path="CounterClassIncrementFivePrevState" element={<CounterClassIncrementFivePrevState />} />
+          <Route path="CounterClassProps" element={<CounterClassProps />} />
           <Route path="FunctionClick" element={<FunctionClick />} />
           <Route path="ClassClick" element={<ClassClick />} />
           <Route path="EventBindClass" element={<EventBindClass />} />

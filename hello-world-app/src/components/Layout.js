@@ -55,6 +55,9 @@ const Layout = () => {
             <Link to="/CounterClassIncrementFivePrevState">CounterClassIncrementFivePrevState</Link>
           </li>
           <li>
+            <Link to="/CounterClassProps">CounterClassProps</Link>
+          </li>
+          <li>
             <Link to="/FunctionClick">FunctionClick</Link>
           </li>
           <li>

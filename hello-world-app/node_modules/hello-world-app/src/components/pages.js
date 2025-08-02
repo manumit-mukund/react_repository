@@ -14,6 +14,7 @@ import MessageClass from './MessageClass';
 import CounterClass from './CounterClass';
 import CounterClassIncrementFive from './CounterClassIncrementFive';
 import CounterClassIncrementFivePrevState from './CounterClassIncrementFivePrevState';
+import CounterClassProps from './CounterClassProps';
 import FunctionClick from './FunctionClick';
 import ClassClick from './ClassClick';
 import EventBindClass from './EventBindClass';
@@ -53,6 +54,7 @@ export {
     CounterClass,
     CounterClassIncrementFive,
     CounterClassIncrementFivePrevState,
+    CounterClassProps,
     FunctionClick,
     ClassClick,
     EventBindClass,
