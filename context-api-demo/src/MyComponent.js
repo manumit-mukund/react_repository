@@ -11,9 +11,10 @@ export const MyComponent = () => {
     <div style={{ background: theme === 'light' ? 'white' : 'black', color: theme === 'light' ? 'black' : 'white' }}>
 
       <h1>Current Theme: {theme}</h1>
+
       <button onClick={toggleTheme}>Toggle Theme</button>
-      
+
     </div>
-    
+
   );
 };
