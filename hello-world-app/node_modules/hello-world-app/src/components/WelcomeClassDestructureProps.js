@@ -6,7 +6,11 @@ class WelcomeClassDestructureProps extends Component {
 
         const { name, heroName } = this.props
 
-        return <h1>WelcomeClassDestructureProps, {name} a.k.a {heroName}</h1>
+        return (
+
+            <h1>WelcomeClassDestructureProps, {name} a.k.a {heroName}</h1>
+            
+        )
     }
 }
 
