@@ -8,7 +8,7 @@ class MessageClass extends Component {
 
         this.state = {
 
-            mymessage: 'Welcome, message constructor'
+            mymessage: 'Welcome, guest'
 
         }
     }
@@ -17,7 +17,7 @@ class MessageClass extends Component {
 
         this.setState({
 
-            mymessage: 'Welcome, changeMessage()'
+            mymessage: 'Goodbye, guest'
             
         })
     }
