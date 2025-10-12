@@ -17,7 +17,8 @@ class CounterClassIncrementFivePrevState extends Component {
         this.setState(prevState => ({
 
             count: prevState.count + 1
-        }))
+            
+        }),  () => { console.log('Callback value', this.state.count) })
 
         console.log('this.state.count = ', this.state.count)
 
