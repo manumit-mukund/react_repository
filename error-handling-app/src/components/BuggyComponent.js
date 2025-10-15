@@ -8,7 +8,7 @@ const BuggyComponent = () => {
 
     const handleClick = () => {
 
-        if (count >= 2) {
+        if (count >= 3) {
 
             throw new Error("You clicked too many times! ");
         }

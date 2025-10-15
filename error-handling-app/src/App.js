@@ -1,18 +1,24 @@
 //App.js
 
 import React from "react";
-import ErrorBoundary from "./components/ErrorBoundary";
-import BuggyComponent from "./components/BuggyComponent";
+import Counter from "./useState_Counter";
 
 const App = () => {
+
     return (
+
         <div style={{ textAlign: "center", marginTop: "30px" }}>
-            <h1>React Error Boundaries Example</h1>
+            {/* <h1>React Error Boundaries Example</h1>
             <ErrorBoundary>
                 <BuggyComponent />
-            </ErrorBoundary>
+            </ErrorBoundary>  */}
+
+            <Counter></Counter>
+
         </div>
+
     );
+
 };
 
 export default App;
